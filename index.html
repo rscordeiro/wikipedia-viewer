@@ -2,7 +2,9 @@
 <html>
 <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Yanone+Kaffeesatz" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
 <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
 <script type="text/javascript" src="javascript.js"></script>
 <title>Quick Wikipedia Search</title>
@@ -10,7 +12,6 @@
   <div class="container-fluid">
     <h1 class="text-center">Quick Wikipedia Search</h1>
     <div class="text-center col-xs-10">
-      <form action="" method="GET">
         <div id="search-div" class="input-group">
           <input type="search" name="wikisearch" class="form-control" id="searchBar" autofocus/>
           <div class="input-group-btn">
@@ -18,7 +19,6 @@
             <a target="_blank" href="https://en.wikipedia.org/wiki/Special:Random"><button class="btn btn-default" type="button" id="random-btn"><span class="glyphicon glyphicon-random"></span></button></a>
           </div>
         </div>
-      </form>
     </div>
     <div class="row" id="result-div">
     </div>

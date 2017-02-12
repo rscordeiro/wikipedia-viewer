@@ -8,8 +8,12 @@ h1 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+h3 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
 #search-div {
-  margin-left: 20%;
+  margin-left: 23%;
 }
 
 #result-div {
@@ -20,10 +24,11 @@ h1 {
   font-family: 'Droid Sans', sans-serif;
   display: inline-block;
   margin: auto;
-  background-color: #FDC5F5;
-  color: black;
+  background-color: #313638;
+  color: white;
   margin-top: 2%;
   padding-right: -20%;
+  border: 2px ridge #9DB4C0
 }
 
 div:last-child {
@@ -32,4 +37,9 @@ div:last-child {
 
 .empty-div {
   width: 18%;
+}
+
+a:hover, a:visited, a {
+  text-decoration: none;
+  color: white;
 }
